@@ -7,12 +7,13 @@
 
   <remote name="github" fetch="git://github.com/" />
 
-  <project path="build" name="oxygen-rom/android_build" remote="github">
+  <project path="build" name="popdog123/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="oxygen-rom/android_bionic" remote="github" />
   <project path="bootable/recovery" name="oxygen-rom/android_bootable_recovery" remote="github" />
   <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik/vm" name="popdog123/dalvik_vm" remote="github" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/htc/bravo" name="oxygen-rom/android_device_htc_bravo" remote="github" />
@@ -24,6 +25,7 @@
   <project path="device/samsung/crespo" name="oxygen-rom/android_device_samsung_crespo" remote="github" />
   <project path="device/samsung/crespo4g" name="CyanogenMod/android_device_samsung_crespo4g" remote="github" />
   <project path="device/samsung/galaxys2" name="oxygen-rom/android_device_samsung_galaxys2" remote="github" />
+  <project path="device/lge/p500" name="popdog123/android_device_lge_p500" remote="github" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
@@ -96,22 +98,22 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/v8" name="platform/external/v8" />
-  <project path="external/webkit" name="platform/external/webkit" />
+  <project path="external/v8" name="popdog123/android_external_v8" remote="github" />
+  <project path="external/webkit" name="popdog123/android_external_webkit" remote="github" />
   <project path="external/wpa_supplicant_6" name="oxygen-rom/android_external_wpa_supplicant_6" remote="github" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="oxygen-rom/android_frameworks_base" remote="github" />
+  <project path="frameworks/base" name="popdog123/android_frameworks_base" remote="github" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="oxygen-rom/android_hardware_broadcom_wlan" remote="github" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="oxygen-rom/android_hardware_libhardware_legacy" remote="github" />
   <project path="hardware/msm7k" name="oxygen-rom/android_hardware_msm7k" remote="github" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
+  <project path="hardware/qcom/gps" name="popdog123/hardware_qcom_gps" remote="github" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
-  <project path="hardware/ril" name="oxygen-rom/android_hardware_ril" remote="github" />
+  <project path="hardware/ril" name="popdog123/android_hardware_ril" remote="github" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
@@ -127,14 +129,14 @@
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Gallery3D" name="oxygen-rom/android_packages_apps_gallery3d" remote="github" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/Launcher2" name="oxygen-rom/android_packages_apps_launcher2" remote="github" />
+  <project path="packages/apps/Launcher2" name="popdog123/android_packages_apps_launcher2" remote="github" />
   <project path="packages/apps/Mms" name="oxygen-rom/android_packages_apps_mms" remote="github" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="oxygen-rom/android_packages_apps_phone" remote="github" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" />
-  <project path="packages/apps/Settings" name="oxygen-rom/android_packages_apps_settings" remote="github" />
+  <project path="packages/apps/Settings" name="popdog123/android_packages_apps_settings" remote="github" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
@@ -153,18 +155,19 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" revision="tools_r7" />
   <project path="system/bluetooth" name="oxygen-rom/android_system_bluetooth" remote="github" />
-  <project path="system/core" name="oxygen-rom/android_system_core" remote="github" />
+  <project path="system/core" name="popdog123/android_system_core" remote="github" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/extras/su" name="ChainsDD/su-binary" revision="master" remote="github" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="platform/system/netd" />
+  <project path="system/netd" name="popdog123/android_system_netd" remote="github" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" />
   <project path="vendor/akm" name="koush/proprietary_vendor_akm" remote="github" />
   <project path="vendor/broadcom" name="koush/proprietary_vendor_broadcom" remote="github" />
   <project path="vendor/imgtec" name="koush/proprietary_vendor_imgtec" remote="github" />
   <project path="vendor/nxp" name="koush/proprietary_vendor_nxp" remote="github" />
-  <project path="vendor/oxygen" name="oxygen-rom/android_vendor_oxygen" remote="github" />
+  <project path="vendor/oxygen" name="popdog123/android_vendor_oxygen" remote="github" />
   <project path="vendor/google" name="oxygen-rom/android_vendor_google" remote="github" />
   <project path="vendor/htc" name="oxygen-rom/android_vendor_htc" remote="github" />
   <project path="vendor/samsung" name="oxygen-rom/android_vendor_samsung" remote="github" />
+  <project path="vendor/lge" name="popdog123/proprietary_vendor_lge" remote="github" />
 </manifest>
