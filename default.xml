@@ -6,7 +6,7 @@
            remote="aosp" />
 
   <remote name="github" fetch="git://github.com/" />
-  <remote name="googlecode" fetch="https://https://code.google.com/p/oxygen-for-p500/" />
+  <remote name="googlecode" fetch="https://code.google.com/p/oxygen-for-p500/" />
 
   <project path="lge" name="device_lge" remote="googlecode" />
   
