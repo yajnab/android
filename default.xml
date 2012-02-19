@@ -109,7 +109,7 @@
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="oxygen-rom/android_hardware_broadcom_wlan" remote="github" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="oxygen-rom/android_hardware_libhardware_legacy" remote="github" />
+  <project path="hardware/libhardware_legacy" name="popdog123/android_hardware_libhardware_legacy" remote="github" />
   <project path="hardware/msm7k" name="oxygen-rom/android_hardware_msm7k" remote="github" />
   <project path="hardware/qcom/gps" name="popdog123/hardware_qcom_gps" remote="github" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
