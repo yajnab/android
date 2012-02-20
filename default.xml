@@ -154,7 +154,7 @@
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" revision="tools_r7" />
-  <project path="system/bluetooth" name="oxygen-rom/android_system_bluetooth" remote="github" />
+  <project path="system/bluetooth" name="popdog123/android_system_bluetooth" remote="github" />
   <project path="system/core" name="popdog123/android_system_core" remote="github" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/extras/su" name="ChainsDD/su-binary" revision="master" remote="github" />
