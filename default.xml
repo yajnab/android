@@ -40,6 +40,10 @@
   <remote  name="gh"
            fetch="git://github.com/"
            sync-j="4" />
+ 
+  <remote  name="caf"
+           fetch="git://codeaurora.org/"
+           review="codeaurora.org" />
 
   <remote  name="bitbucket"
            fetch="https://bitbucket.org/" 
@@ -58,7 +62,7 @@
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="dalvik" name="CarbonDev/android_dalvik" remote="cr" revision="jb2" />
-  <project path="development" name="CarbonDev/android_development" remote="cr" revision="jb2" />
+  <project path="development" name="CarbonDev/android_development" remote="cr" revision="jb2" /> <project path="device/bn/omap4-common" name="CyanogenMod/android_device_bn_omap4-common" remote="cm" revision="cm-10.1" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.1" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/armzipalign" name="CarbonDev/platform_external_armzipalign" remote="cr" revision="master" />
@@ -74,7 +78,9 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="CarbonDev/android_external_bluetooth_bluedroid" remote="cr" revision="jb2" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" remote="caf" revision="jb_2.5" groups="default" />
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="caf" revision="jb_2.5" groups="default" />
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="caf" revision="jb_2.5" groups="default" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="CarbonDev/android_external_busybox" remote="cr" revision="jb2" />
@@ -104,7 +110,7 @@
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/fat32lib" name="platform/external/fat32lib" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
-  <project path="external/flac" name="platform/external/flac" />
+  <project path="external/flac" name="CyanogenMod/android_external_flac" remote="gh" revision="cm-10.1" />
   <project path="external/freetype" name="android_external_freetype" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/fuse" name="android_external_fuse" remote="cmdev" revision="cm-10.1-linaro" />
@@ -187,7 +193,7 @@
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="external_openssh" remote="ub" revision="jb-mr1" />
   <project path="external/openssl" name="external_openssl" remote="ub" revision="jb-mr1" />
-  <project path="external/oprofile" name="CarbonDev/android_external_oprofile" remote="cr" revision="jb2" />
+  <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" remote="gh" revision="cm-10.1" />
   <project path="external/ping" name="external_ping" remote="ub" revision="jb-mr1" />
   <project path="external/ping6" name="android_external_ping6" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/ppp" name="platform/external/ppp" />
@@ -220,12 +226,12 @@
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="external_v8" remote="ub" revision="jb-mr1" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="CarbonDev/android_external_webkit" remote="cr" revision="jb2" />
+  <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="gh" revision="cm-10.1" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
-  <project path="external/wpa_supplicant_8" name="CarbonDev/android_external_wpa_supplicant_8" remote="cr" revision="jb2" />
-  <project path="external/wpa_supplicant_8_ti" name="CarbonDev/android_external_wpa_supplicant_8_ti" remote="cr" revision="jb2" />
+  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="gh" revision="cm-10.1" />
+  <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="gh" revision="cm-10.1" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="cm" revision="cm-10.1" />
@@ -281,7 +287,6 @@
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" remote="cm" revision="cm-10.1" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="cm" revision="cm-10.1" />
-  <project path="hardware/ti/omap4xxx" name="CarbonDev/android_hardware_ti_omap4xxx" remote="cr" revision="jb2" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
   <project path="libcore" name="CarbonDev/android_libcore" remote="cr" revision="jb2" />
@@ -354,8 +359,8 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="cm-10.1" />
   <project path="vendor/carbon" name="CarbonDev/android_vendor_carbon" remote="cr" revision="jb2" />
-  <project path="vendor/samsung" name="CarbonDev/proprietary_vendor_samsung" remote="cr" revision="jb2" />
-  <project path="vendor/qcom" name="CarbonDev/proprietary_vendor_qcom" remote="cr" revision="jb2" />
+  <project path="vendor/samsung" name="androidarmv6/android_vendor_samsung" remote="gh" revision="cm-10.1" />
+  <project path="vendor/qcom/msm7x27" name="androidarmv6/android_vendor_qcom_msm7x27" remote="gh" revision="cm-10.1" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="tm" revision="cm-10.1" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="gh" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="AOKP/vendor_tmobile_libs_com.tmobile.themes" remote="gh" revision="jb-mr1" />
