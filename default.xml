@@ -65,7 +65,7 @@
   <project path="development" name="CarbonDev/android_development" remote="cr" revision="jb2" /> 
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.1" />
   <project path="external/aac" name="platform/external/aac" />
-  <project path="external/armzipalign" name="CarbonDev/platform_external_armzipalign" remote="cr" revision="master" />
+  <project path="external/armzipalign" name="CyanogenMod/android_external_armzipalign" remote="cm" revision="cm-10.1" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" remote="cm" revision="cm-10.1" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
@@ -94,7 +94,7 @@
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="CarbonDev/external_dnsmasq" remote="cr" revision="jb2" />
+  <project path="external/dnsmasq" name="CyanogenMod/amdroid_external_dnsmasq" remote="cm" revision="cm-10.1" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cmdev" revision="cm-10.1-linaro" />
@@ -239,7 +239,7 @@
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="CarbonDev/android_frameworks_av" remote="cr" revision="jb2" />
   <project path="frameworks/base" name="CarbonDev/android_frameworks_base" remote="cr" revision="jb2" />
-  <project path="frameworks/compile/libbcc" name="CarbonDev/android_frameworks_compile_libbcc" remote="cr" revision="jb2" />
+  <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" remote="cm" revision="cm-10.1" />
   <project path="frameworks/compile/linkloader" name="CyanogenMod/android_frameworks_compile_linkloader" remote="cm" revision="cm-10.1" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="ub" revision="jb-mr1" />
@@ -311,7 +311,7 @@
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Mms" name="CarbonDev/android_packages_apps_Mms" remote="cr" revision="jb2" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="refs/tags/android-4.2.2_r1"/>
-  <project path="packages/apps/Nfc" name="CarbonDev/android_packages_apps_Nfc" remote="cr" revision="jb2" />
+  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/PackageInstaller" name="Root-Box/packages_apps_PackageInstaller" remote="gh" revision="jb-mr1" />
   <project path="packages/apps/PermissionsManager" name="AOKP/packages_apps_PermissionsManager" remote="gh" revision="jb-mr1" />
   <project path="packages/apps/Phone" name="CarbonDev/android_packages_apps_Phone" remote="cr" revision="jb2" />
@@ -346,8 +346,7 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="packages/wallpapers/SunBeam" name="android_packages_wallpapers_SunBeam" remote="kejar31" revision="cm-10.1" />
   <project path="pdk" name="platform/pdk" />
-   <project path="prebuilts/misc" name="CarbonDev/android_prebuilts_misc" remote="cr" revision="jb2" />
-  <project path="sdk" name="CyanogenMod/android_sdk" remote="cm" revision="cm-10.1" />
+   <project path="sdk" name="CyanogenMod/android_sdk" remote="cm" revision="cm-10.1" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="cm" revision="cm-10.1" />
   <project path="system/core" name="CarbonDev/android_system_core" remote="cr" revision="jb2" />
   <project path="system/extras" name="CarbonDev/android_system_extras" remote="cr" revision="jb2" />
