@@ -62,7 +62,7 @@
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="dalvik" name="CarbonDev/android_dalvik" remote="cr" revision="jb2" />
-  <project path="development" name="CarbonDev/android_development" remote="cr" revision="jb2" /> <project path="device/bn/omap4-common" name="CyanogenMod/android_device_bn_omap4-common" remote="cm" revision="cm-10.1" />
+  <project path="development" name="CarbonDev/android_development" remote="cr" revision="jb2" /> 
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.1" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/armzipalign" name="CarbonDev/platform_external_armzipalign" remote="cr" revision="master" />
