@@ -65,7 +65,6 @@
   <project path="development" name="CarbonDev/android_development" remote="cr" revision="jb2" /> 
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.1" />
   <project path="external/aac" name="platform/external/aac" />
-  <project path="external/armzipalign" name="CyanogenMod/android_external_armzipalign" remote="cm" revision="cm-10.1" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" remote="cm" revision="cm-10.1" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
@@ -94,7 +93,7 @@
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="CyanogenMod/amdroid_external_dnsmasq" remote="cm" revision="cm-10.1" />
+  <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" remote="cm" revision="cm-10.1" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cmdev" revision="cm-10.1-linaro" />
@@ -346,7 +345,7 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="packages/wallpapers/SunBeam" name="android_packages_wallpapers_SunBeam" remote="kejar31" revision="cm-10.1" />
   <project path="pdk" name="platform/pdk" />
-   <project path="sdk" name="CyanogenMod/android_sdk" remote="cm" revision="cm-10.1" />
+  <project path="sdk" name="CyanogenMod/android_sdk" remote="cm" revision="cm-10.1" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="cm" revision="cm-10.1" />
   <project path="system/core" name="CarbonDev/android_system_core" remote="cr" revision="jb2" />
   <project path="system/extras" name="CarbonDev/android_system_extras" remote="cr" revision="jb2" />
