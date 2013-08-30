@@ -53,7 +53,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="CarbonDev/android_build" remote="cr" revision="jb2">
+  <project path="build" name="yajnab/android_build" remote="gh" revision="jb2">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="CarbonDev/android" remote="cr" revision="jb2" />
