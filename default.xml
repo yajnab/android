@@ -12,8 +12,8 @@
   </project>
   <project path="bionic" name="oxygen-rom-gb/android_bionic" remote="github" />
   <project path="bootable/recovery" name="oxygen-rom-gb/android_bootable_recovery" remote="github" />
-  <project path="dalvik" name="platform/dalvik" />
-  <project path="dalvik/vm" name="popdog123/dalvik_vm" remote="github" />
+  <project path="dalvik" name="oxygen-msm/android_dalvik" remote="github"/>
+  <project path="dalvik/vm" name="oxygen-msm/dalvik_vm" remote="github" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/sample" name="device/sample" />
@@ -91,17 +91,17 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="popdog123/android_external_v8" remote="github" />
-  <project path="external/webkit" name="popdog123/android_external_webkit" remote="github" />
+  <project path="external/webkit" name="oxygen-msm/android_external_webkit" remote="github" />
   <project path="external/wpa_supplicant_6" name="popdog123/android_external_wpa_supplicant_6" remote="github" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="popdog123/android_frameworks_base" remote="github" />
+  <project path="frameworks/base" name="oxygen-msm/android_frameworks_base" remote="github" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="oxygen-rom-gb/android_hardware_broadcom_wlan" remote="github" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="popdog123/android_hardware_libhardware_legacy" remote="github" />
+  <project path="hardware/libhardware" name="oxygen-msm/android_hardware_libhardware" remote="github"/>
+  <project path="hardware/libhardware_legacy" name="oxygen-msm/android_hardware_libhardware_legacy" remote="github" />
   <project path="hardware/msm7k" name="oxygen-rom-gb/android_hardware_msm7k" remote="github" />
   <project path="hardware/qcom/gps" name="popdog123/hardware_qcom_gps" remote="github" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
@@ -153,8 +153,7 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="popdog123/android_system_netd" remote="github" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" />
-  <project path="vendor/oxygen" name="popdog123/android_vendor_oxygen" remote="github" />
+  <project path="vendor/oxygen" name="oxygen-msm/android_vendor_oxygen" remote="github" />
   <project path="vendor/google" name="oxygen-rom-gb/android_vendor_google" remote="github" />
-  <project path="vendor/samsung" name="oxygen-rom-gb/android_vendor_samsung" remote="github" />
-  <project path="vendor/lge" name="popdog123/proprietary_vendor_lge" remote="github" />
-</manifest>
+  <!--<project path="vendor/samsung" name="oxygen-rom-gb/android_vendor_samsung" remote="github" />-->
+  </manifest>
